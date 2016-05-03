@@ -1,0 +1,22 @@
+
+* {
+  box-sizing: border-box;
+}
+
+#header {
+  position: fixed;
+}
+
+#navHome {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+#nastyDogFood {
+  width: 300px;
+  align-content: center;
+}
+
+#footer {
+
+}
