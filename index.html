@@ -4,28 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pet Food Exercise</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="food.css">
   </head>
 
   <body>
-       <nav>
-        <h1 id="navHome"><a href="index.html" title="Home">A.C.M.E.</a></h1>
-        <h2>Animal Food for Animal Haters</h2>
-        <div class="navLinks"><a href="dogFoodProducts.html" title="Dog Food">So-Called Dog Food</a></div>
-        <div class="navLinks"><a href="catFoodProducts.html" title="Cat Food">So-Called Cat Food</a></div>
+    <header>
+      <nav class="nav">
+        <h1 id="h1"><a href="index.html" title="Home">A.C.M.E.</a></h1>
+        <h3 id="h3">Animal Food for Animal Haters</h2>
       </nav>
     </header>
 
 <!-- PET FOOD CONTENT -->
     <div class="splashContent">
-
-      <div id="dog_brands"></div>
-
-      <div id="catFood"></div>
-
+      <div id="dog_brands" class="container-fluid"></div>
+      <div id="cat_brands" class="container-fluid"></div>
     </div>
 
-      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
-
+    <script src="foodDog.js"></script>
+    <script src="foodCat.js"></script>
   </body>
 </html>
+
+
+

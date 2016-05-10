@@ -1,7 +1,7 @@
 {
   "cat_brands": [
     {
-      "name": "Purrina - for Siamese, Bengal, Showshoe, Munchkin",
+      "name": "Purrina - for Siamese, Bengal, Snowshoe, and Munchkin",
       "types": [
         {
           "type": "Kitten",
@@ -13,31 +13,32 @@
             {
               "name": "32oz",
               "price": 26.99
-            }
+            },
             {
               "name": "64oz",
               "price": 34.99
             }
+          ]
+        },
         {
           "type": "Elite",
           "volumes": [
             {
               "name": "20oz",
               "price": 24.99
-            }
+            },
             {
               "name": "40oz",
               "price": 47.99
             }
           ]
         }
-          ]
-        }
-        },
       ]
     },
+
+
     {
-      "name": "Meow Meal - for Manx, Egyptian Mau, Himalayan, Rag Doll",
+      "name": "Meow Meal - for Manx, Egyptian Mau, Himalayan, and Rag Doll",
       "types": [
         {
           "type": "Kitten",
