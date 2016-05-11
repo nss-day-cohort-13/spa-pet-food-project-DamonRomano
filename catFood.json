@@ -1,7 +1,8 @@
 {
   "cat_brands": [
     {
-      "name": "Purrina - for Siamese, Bengal, Snowshoe, and Munchkin",
+      "name": "Purrina",
+      "breed": "Siamese, Bengal, Snowshoe, and Munchkin",
       "types": [
         {
           "type": "Kitten",
@@ -36,9 +37,9 @@
       ]
     },
 
-
     {
-      "name": "Meow Meal - for Manx, Egyptian Mau, Himalayan, and Rag Doll",
+      "name": "Meow Meal",
+      "breed": "Manx, Egyptian Mau, Himalayan, and Rag Doll",
       "types": [
         {
           "type": "Kitten",

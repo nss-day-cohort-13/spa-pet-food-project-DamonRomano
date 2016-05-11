@@ -15,10 +15,14 @@ function displayCatFood () {
     console.log("catData name", name );
     catListBuilder += `<div class="row-fluid typeCenter brandBox"><h1>${name}</h1>`;
 
+    var breed = catData.cat_brands[a].breed;
+      console.log("breed", breed);
+      catListBuilder += `<div class="row-fluid col-lg-12 typeCenter"><h2>${breed}</h2>`;
+
     var typeArr = catData.cat_brands[a].types;
     for (var e = 0; e < typeArr.length; e++) {
       console.log("type",typeArr[e].type);
-      catListBuilder += `<div class="row-fluid col-md-6 typeCenter"><h3>${typeArr[e].type}</h3>`;
+      catListBuilder += `<div class="row-fluid col-lg-3 col-md-6 col-sm-6 col-xs-12 typeCenter"><h3>${typeArr[e].type}</h3>`;
 
       var volumes = typeArr[e].volumes;
       for (var i = 0; i < volumes.length; i++) {
@@ -27,13 +31,17 @@ function displayCatFood () {
         catListBuilder += `<div class="row-fluid volume col-sm-6"><p>${volumes[i].name}</p><p>${volumes[i].price}</p>`;
 
         catListBuilder += `</div>`;
-      }
+       }
       catListBuilder += `</div>`;
-    }
+      }
     catListBuilder += `</div>`;
+
+  catListBuilder += `</div>`
   }
+  catListBuilder += `</div>`
+
   catFood.innerHTML = catListBuilder;
-}
+  }
 
 var cat = new XMLHttpRequest();
 cat.addEventListener("load", displayCatFood);
