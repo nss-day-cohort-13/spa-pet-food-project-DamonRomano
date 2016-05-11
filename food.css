@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+.nav {
+  font-size: 2.5em;
+  text-align: center;
+  width: 100%;
+}
+
+.typeCenter {
+  text-align: center;
+}
+
+.volume {
+  border: 1px solid green;
+}
+
+.brandBox {
+  /*border: 1px solid blue;*/
+  overflow: hidden;
+}
+
+h1 {
+  margin: 30px auto 5px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+.navLinks {
+  text-align: center;
+}
